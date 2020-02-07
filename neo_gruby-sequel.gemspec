@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
   
-  spec.add_dependency 'neo_gruby', '~> 0.2.0'
+  spec.add_dependency 'neo_gruby', '~> 0.2.0.pre.rc1'
   spec.add_dependency 'sequel', '~> 4.49.0'
   spec.add_dependency 'uuidtools', '~> 2.1.5'
 end
